@@ -1,0 +1,191 @@
+#quem {
+  margin-bottom: -40px;
+}
+
+/*--------------nav-------------*/
+
+#menu { 
+    position: fixed;
+    right:-250px;
+    top: 100px;
+    float: right;
+    z-index: 100;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    transform: rotate(90deg);
+  }
+  
+  #info {
+    float: left;
+    font-family: "obviously-compressed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    transition: top .3s ease;
+  }
+
+
+  #info:hover {
+    top: 117px;
+  }
+
+  #playground {
+    float: left;
+    font-family: "obviously-compressed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: uppercase;
+    position: relative;
+    top: 110px;
+    transition: top .3s ease;
+  }
+
+    
+  #nav:hover > #playground {
+    top: 40px;
+
+  }
+  
+/*--------------imgs-------------*/
+
+
+.images {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.imgp {
+  flex: 30%;
+  margin: 4vw;
+  }
+
+.imghf {
+  align-self:flex-end;
+  flex: 70%;
+  margin: 4vw;
+  } 
+
+  .pa {
+    flex-grow: 5;
+  }
+
+  .pb {
+    flex-grow: .1;
+    margin-top: 30vw;
+  }
+
+  .pc {
+    margin-top: -15vw;
+    flex-grow: 1;
+  }
+
+  .pd {
+    margin-top: -30vw;
+    flex-grow: 1;
+  }
+
+
+.imgplay {
+  position:absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-85%,600%);
+  z-index: 100;
+
+}
+
+div img.playwork {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+
+
+  
+
+    
+@media only screen and (max-width: 480px) {
+
+  #quem1 {
+    display:inline-flex;
+    font-size: 30pt;  
+    line-height: 180%;
+    padding-left: 3vw;
+    margin-bottom: 90vw;
+    margin-top: -18px;
+    position: sticky;
+    top: -30x;
+    z-index: 99;
+    transition: top .3s;
+  }
+  
+  #quem1:hover {
+    top:-80px;
+  }
+
+
+  #quem {
+      display: inline-flex;
+      font-size: 30pt;  
+      line-height: 180%;
+      padding-left: 3vw;
+      margin-bottom: -10px;
+      margin-top: -18px;
+      position: sticky;
+      top: -30x;
+      z-index: 99;
+      transition: top .3s;
+    }
+    
+    #quem:hover {
+      top:0px;
+    }
+
+    
+    #menu {
+        position: fixed;
+        right:-110px;
+        top: 60px;
+        float: right;
+        -ms-transform: rotate(90deg); /* IE 9 */
+        transform: rotate(90deg);
+    }
+
+  
+
+      h3 {
+        font-size: 40pt;
+        padding-right: 10px;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        padding-right: 15px;
+      }
+
+
+      #info {
+        float: left;
+  
+        font-style: normal;
+        top: 48px;
+    }
+  
+      #info:hover {
+      top: 40px;
+      }
+  
+      
+      #playground {
+  
+        float: left;
+        font-style: normal;
+        top: 30px;
+    }
+  
+      #playground:hover {
+      top: 48px;
+      }
