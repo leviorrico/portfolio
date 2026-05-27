@@ -46,6 +46,25 @@
     top: 40px;
 
   }
+
+    #motion {
+    float: left;
+    font-family: "obviously-compressed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: uppercase;
+    position: relative;
+    top: 110px;
+    transition: top .3s ease;
+  }
+
+    
+  #nav:hover > #motion {
+    top: 40px;
+
+  }
+
+
   
 /*--------------imgs-------------*/
 
@@ -188,4 +207,15 @@ div img.playwork {
   
       #playground:hover {
       top: 48px;
+      }
+
+      #motion {
+
+        float: left;
+        font-style: normal;
+        top: 90px;
+    }
+
+      #motion:hover {
+      top: 40px;
       }

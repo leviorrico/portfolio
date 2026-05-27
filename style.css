@@ -607,6 +607,17 @@ footer {
       top: 40px;
       }
 
+      #motion {
+
+        float: left;
+        font-style: normal;
+        top: 90px;
+    }
+
+      #motion:hover {
+      top: 40px;
+      }
+
       h3 {
         font-family: "obviously-compressed";
         font-weight: 400;
@@ -762,5 +773,5 @@ footer {
       position: relative;
       line-height: 300%;
     
-    }
-    
+    } 
+  }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="=assets/favicon.ico" type="image/x-icon">
+  <title> Motion — Levi Orrico </title>
+  <meta name="description" content="Graphic designer and letterer from Brazil.">
+  <meta name="keywords" content="Graphic Design, Lettering, Brand Identity">
+  <meta name="author" content="Levi Orrico">
+  <link rel="stylesheet" href="https://use.typekit.net/oag5psh.css">  
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="motion/motion.css" rel="stylesheet" type="text/css">
+  </head>
+
+
+<body>
+  <div id="quem"><h1><a id="home" href=index.html>Levi Orrico</a></h1></div>
+  <header id="menu">
+    <div id="nav">
+          <div id="info"><h3><a id="home" href=info.html>Info</a></h3></div>
+          <div id="playground"><h3><a id="home" href=playground.html>Playground</a></h3></div>
+          <div id="motion"><h3><a id="home" href=motion.html>Motion</a></h3></div>
+    </div>
+  </header>
+
+  <div class="clear">
+    <div class="images">
+      <div class="imgp pa">
+        <img src="motion/dointerio_saudade.mp4" alt="manteiga"> 
+      </div>
+            
+      <div class="imgp pb">
+        <img src="motion/fin01_reel_02_AME.mp4" alt="finito-infinito"> 
+      </div>
+      
+      <div class="imgp pc">
+        <img src="motion/ohm07_reels_alma_02_0000_7.mp4" alt="alma"> 
+      </div>
+      
+      <div class="imgp pa"style="z-index:91">
+        <img src="motion/ohm11_anim_01_a_0001.mp4" alt="ohma"> 
+      </div>
+      
+      <div class="imgp pd" style="z-index:89">
+        <img src="motion/ohm20_3d_primaveras_anm_01.mp4 alt="primavera"> 
+      </div>
+      
+      <div class="imghf">
+        <img src="motion/ohm-logo-anim.mp4" alt="OHMA logo"> 
+      </div>
+      
+      <div class="imgp" >
+        <img src="motion/ohm24_video_site_01.mp4" alt="OHMA novo site"> 
+      </div>
+
+      <div class="imgp" >
+        <img src="motion/ohm19_post_premio_3D_02.mp4" alt="passarinho"> 
+      </div>
+      
+      <div class="imgp">
+        <img src="motion/LMD_NossosFios_Lambes_Animados_03.mp4" alt="Nossos Fios"> 
+      </div>
+
+      <div class="imgp pa">
+        <img src="motion/ohm23_orbe_vid_02b.mp4" alt="Orbe"> 
+      </div>
+
+
+      <div class="imgp" >
+        <img src="motion/tll01_logo_anim_horizontal.mp4" alt="TC arquitetura"> 
+      </div>
+      
+      <div class="imgp pa" style="z-index:89">
+        <img src="playground/img/w.gif" alt="W"> 
+      </div>
+
+      </div>  
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="insta"><a href="https://www.instagram.com/leviorrico/" target="_blank">@leviorrico</div>
+    <div class="email">
+    <div class="hi"><a href="mailto:orricolevi@gmail.com">diga oi</a> &ensp; oi@leviorrico.com</a></div>
+    </div>
+  </footer>
+
+<script type="text/javascript" src="../index.js"></script>
+<script type="text/javascript"> 
+var $playwork = $('.playwork');
+var $win = $(window);
+$win.on('scroll', function(){
+    var top = $win.scrollTop()/1;
+    $playwork.css('transform','rotate('+ top + 'deg)');
+    console.log('Amazing Scrolling');
+});
+</script>
+</body>
+</html>
